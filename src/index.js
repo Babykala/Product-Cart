@@ -1,20 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import Form from './component/Form'
-
 import App from './App';
-import Crud from './crud';
-//import PricingTable from './pricingTable';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    {/* <Cart /> */}
-    {/* <PricingTable /> */}
-    {/* <Form /> */}
-    {/* <Crud /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
